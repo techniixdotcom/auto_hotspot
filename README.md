@@ -34,7 +34,7 @@ The script runs through 6 steps:
    ```
 3. Run the installer:
    ```powershell
-   .\InstallHotspotTask.ps1
+   powershell -ExecutionPolicy Bypass -File .\InstallHotspotTask.ps1
    ```
 4. Follow the prompts to enter your desired hotspot name and password.
 
